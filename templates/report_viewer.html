@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Quality Report</title>
+</head>
+<body>
+    <h1>Data Quality Report</h1>
+    
+    <!-- Embed the report content directly in the page -->
+    <iframe src="{{ url_for('static', filename='combined_data_quality_report.html') }}" width="100%" height="800px">
+        Your browser does not support iframes.
+    </iframe>
+
+    <br>
+    <a href="/">Go back to upload page</a>
+</body>
+</html>
